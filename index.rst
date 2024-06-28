@@ -4,13 +4,6 @@
    contain the root `toctree` directive.
 
 
-Bezpieczeństwo baz danych
-========================================
-
-Zarządzanie Bezpieczeństwem w Systemach Baz Danych PostgreSQL
-=============================================================
-
-
 pg_hba.conf - Sterowanie Dostępem
 =================================
 
@@ -92,6 +85,7 @@ Przykładowe konfiguracje pliku ``pg_hba.conf`` mogą obejmować różne
 scenariusze dostępu:
 
 ::
+
    Pozwól na połączenie dowolnego użytkownika z hostem 192.168.12.10 do bazy danych "postgres", jeśli hasło 
    użytkownika jest poprawnie podane
    # Typ   Baza danych    Użytkownik    Adres              Metoda
@@ -427,12 +421,3 @@ narzędzia do zarządzania kluczami:
 
 -  **GCP Cloud KMS** - zarządzanie kluczami w środowisku Google Cloud
    Platform.
-
-    """
-
-.. :Indices and tables
-==================
-
-.. * :ref:`genindex`
-.. * :ref:`modindex`
-.. * :ref:`search`
